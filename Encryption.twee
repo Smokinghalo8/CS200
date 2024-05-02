@@ -1,0 +1,81 @@
+:: StoryTitle
+Encryption
+
+
+:: StoryData
+{
+  "ifid": "D95C671F-462F-4DB8-8D5A-496784599CCE",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: Intro {"position":"600,275","size":"100,100"}
+Would you like to learn more about Encryption?
+
+[[Yes|yesStart]]
+[[No|noStart]]
+
+
+:: Untitled Passage {"position":"775,200","size":"100,100"}
+
+
+
+:: brute {"position":"625,675","size":"100,100"}
+Brute forcing a password is a method for getting someones password without knowing any clues!
+Very slow and time consuming.
+
+[[Go back|password]]
+
+
+:: cip {"position":"375,675","size":"100,100"}
+So there are a few different ways to encrypt text, caesar ciphor is the most used in low stakes enviroments.
+
+The Caesar ciphor is a method where you choose a number, and move the alphabet that many spaces up or down depending on how you want to do it.
+
+[[Go Back|yesStart]]
+
+
+:: dic {"position":"875,675","size":"100,100"}
+A dictornary attack on a password is getting the password by using words that are real!
+
+This method works faster most of the time, but if the password doesnt contain real words then this method won't work!
+
+[[Go Back|password]]
+
+
+:: file {"position":"375,550","size":"100,100"}
+There are many different types of file encryption you can use, although most of them use some form of 'key' to decrypt and print the file to a readable file!
+
+
+[[Ciphers|cip]]
+
+
+[[Go back|yesStart]]
+
+
+:: noStart {"position":"725,400","size":"100,100"}
+Oh okay
+
+If you change your mind:
+
+[[Go Back|Intro]]
+
+
+:: password {"position":"725,525","size":"100,100"}
+So Password encryption is really similar to file encryption, because most of the time passwords are saved to the local machine under a certain type of encryption!
+Many different ways to decrypt and encrypt password, but Brute force and Dictonary attacks are the most common way to get past encryption!
+
+[[Go back|yesStart]]
+
+[[Learn more about Brute Force Attacks|brute]]
+[[Learn more about Dic Attacks|dic]]
+
+
+:: yesStart {"position":"600,400","size":"100,100"}
+Encryption is very complicated in many different ways, so briefly, Here are a few topics you can go more into if you want to!
+
+[[File Encryption|file]]
+[[Password Encryption|password]]
